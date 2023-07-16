@@ -1,5 +1,5 @@
 /* scroll behavior fluid as possible */
 
-scroll {
+html {
   scroll-behavior: smooth;
 }
