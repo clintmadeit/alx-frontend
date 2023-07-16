@@ -1,5 +1,9 @@
 /* add color and class definition */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     foreground-color: #161616;
 } 
