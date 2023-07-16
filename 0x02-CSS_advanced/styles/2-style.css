@@ -1,12 +1,13 @@
 /* add color and class definition */
 
-body {
+html {
+    scroll-behavior: smooth;
+}
+
+body, a {
     color: #161616;
 } 
 
-a {
-    color: #161616;
-}
 
 .visually-hidden {
     display: none;
