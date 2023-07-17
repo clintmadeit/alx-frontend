@@ -7,11 +7,11 @@ html {
 body {
     color: #161616;
     color: var(--text-color);
-    font-family: --font-family-base;
+    font-family: var(--font-family-base);
 }
 
 h6 {
-    font-family: var(--font-family-title);
+    font-family: font-family-title;
 }
 
 a {
