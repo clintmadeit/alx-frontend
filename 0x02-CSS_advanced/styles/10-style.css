@@ -64,6 +64,6 @@ a {
     --line-height-big: 1.8;
 }
 
-.section-header {
+custom property {
     --section-header-align: center;
 }
