@@ -363,18 +363,16 @@ ul.row {
     vertical-align: bottom;
 }
 
-/* styling for the testimonials class and dependents*/
-
-.card-testimonial {
-    text-align: center;
-}
-
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+}
+
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
@@ -402,6 +400,12 @@ ul.row {
 
 .card-work:hover .card-title {
     opacity: 1;
+}
+
+/* styling for the testimonials class and dependents*/
+
+.card-testimonial {
+    text-align: center;
 }
 
 .card-testimonial .card-avatar {
