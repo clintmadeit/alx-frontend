@@ -1,19 +1,29 @@
 /* cascading stye sheet */
 
+/* importing normalize.css */
+
 @import "normalize.css";
+
+/* setting global boxing size*/
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+/* styling for the html elements*/
 
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
+/* styling for the navigation bar menu class*/
+
 .navbar-menu {
     float: right;
 }
+
+/* styling for navigation class*/
 
 .nav {
     margin: 0;
@@ -21,6 +31,8 @@ html {
     list-style: none;
     text-align: center;
 }
+
+/* styling for navigation items class in navigation class*/
 
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
@@ -31,14 +43,23 @@ html {
     margin: var(--nav-item-margin);
     }
 
+    /* styling for navigation links class in navigation class*/
+
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     }
+
+    /* styling for navigation links class in navigation class when hovering on them*/
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover-color);
     }
+
+    /* styling for the body class*/
 
 body {
     color: #161616;
@@ -49,10 +70,14 @@ body {
     line-height: var(--line-height-base);
 }
 
+/* styling for the headings class*/
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
+
+/* styling for the links class*/
 
 a:link {
     color: #161616;
@@ -60,44 +85,64 @@ a:link {
     text-decoration: none;
 }
 
+/* styling for visited links class*/
+
 a:visited {
     font-style: italic;
 }
+
+/* styling for the links on hover class*/
 
 a:hover {
     text-decoration: underline;
 }
 
+/* styling for the active links class*/
+
 a:active {
     background-color: var(--color-light-grey);
 }
 
+/* styling for the visually hidden class*/
+
 .visually-hidden {
     display: none;
 }
+
+/* styling for the card category class*/
 
 .card-category {
     color: #Dd3953;
     color: var(--color-primary);
 }
 
+/* styling for the section class*/
+
 .section {
     padding: var(--section-padding);
 }
+
+/* styling for the section header class*/
 
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
 
+/* styling for the section body class*/
+
 .section-body {
     padding: var(--section-body-padding);
 }
+
+/* styling for the section footer class*/
 
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
+
+/* styling for the section title class*/
 
 .section-title {
     font-family: var(--font-family-title);
@@ -107,6 +152,8 @@ a:active {
     color: var(--section-title-color);
 }
 
+/* styling for the section tagline class*/
+
 .section-tagline {
     color: #d73953;
     color: var(--color-primary);
@@ -115,11 +162,15 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
+/* styling for the container class*/
+
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* root elements styling*/
 
 :root {
     --color-primary: #d73953;
@@ -158,6 +209,8 @@ a:active {
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 }
+
+/* styling for the footer class*/
 
 .footer {
     padding: var(--footer-padding);
