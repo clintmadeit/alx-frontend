@@ -84,7 +84,7 @@ html {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 /* styling the before pseudo element of the nav-link class on hover*/
