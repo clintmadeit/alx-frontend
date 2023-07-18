@@ -57,10 +57,10 @@ html {
     color: var(--nav-item-link-hover);
 }
 
-/* styling for card-services class and its descendants*/
+/* styling for card-services class*/
 
 .card-services .card-title {
-    margin: none;
+    margin: 0;
 }
 
 .card-services a {
