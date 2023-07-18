@@ -279,6 +279,6 @@ ul.row {
 
 /* styling for the social link that also selects the svg children*/
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
