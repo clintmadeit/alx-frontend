@@ -57,6 +57,24 @@ html {
     color: var(--nav-item-link-hover);
 }
 
+/* styling for card-services class and its descendants*/
+
+.card-services .card-title {
+    margin: none;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
     /* styling for the body class*/
 
 body {
@@ -112,24 +130,6 @@ a:active {
 .card-category {
     color: #Dd3953;
     color: var(--color-primary);
-}
-
-/* styling for card-services class and its descendants*/
-
-.card-services card-title {
-    margin: none;
-}
-
-.card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-}
-
-.card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
 }
 
 
