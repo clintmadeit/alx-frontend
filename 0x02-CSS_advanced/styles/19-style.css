@@ -15,10 +15,11 @@ html {
     float: right;
 }
 
+/* Styling for nav and descendants */
 .nav {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
 }
 
@@ -29,16 +30,16 @@ html {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-    }
+}
 
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    }
+}
 
 .nav .nav-link:hover {
-    color: var(--nav-item-link-hover-color);
-    }
+    color: var(--nav-item-link-hover);
+}
 
 body {
     color: #161616;
