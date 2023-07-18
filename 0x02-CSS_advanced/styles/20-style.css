@@ -240,9 +240,13 @@ ul.row {
     padding: var(--footer-padding);
 }
 
+/* styling for the footer ul class*/
+
 .footer ul {
     text-align: right;
 }
+
+/* clearing context for grid*/
 
 .row::after {
     content: "";
