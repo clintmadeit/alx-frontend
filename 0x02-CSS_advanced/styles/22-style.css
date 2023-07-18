@@ -14,10 +14,10 @@
 
 /* setting global boxing size*/
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
+    * {
+        box-sizing: border-box;
+    }
+    
 /* styling for the html elements*/
 
 html {
