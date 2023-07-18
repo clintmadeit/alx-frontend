@@ -78,7 +78,7 @@ html {
 /* styling the before pseudo element of the nav-link class*/
 
 .nav .nav-link::before {
-    content: empty;
+    content: ""; /* setting content to empty string */
     position: absolute;
     top: 0;
     left: 0;
