@@ -47,10 +47,7 @@ html {
 
 .nav .nav-link {
     display: block;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: .5rem .5rem 1rem 1rem;
     }
 
     /* styling for navigation links class in navigation class when hovering on them*/
