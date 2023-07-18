@@ -116,7 +116,7 @@ a:active {
 
 /* styling for card-services class and its descendants*/
 
-.card-services .card-title {
+.card-services card-title {
     margin: none;
 }
 
