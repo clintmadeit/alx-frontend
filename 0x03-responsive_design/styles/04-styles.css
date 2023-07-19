@@ -276,6 +276,7 @@
     .navbar-menu {
       display: none;
       flex: 1;
+    }
       :root {
         --nav-item-margin: 0;
       }
@@ -286,7 +287,6 @@
         transition: max-height 0.3s ease-out; /* the transition */
       }
     }
-  }
   
   /* Header
       ============================= */
