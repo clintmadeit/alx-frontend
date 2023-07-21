@@ -177,7 +177,7 @@
     white-space: nowrap;
   }
 
-  .visually-hidden img {
+  main img {
     width: 100%;
     height: auto;
   }
@@ -223,14 +223,14 @@
       --section-padding: 5rem 1.5rem;
       --section-body-padding: 2rem 0 0;
     }
-    ul.row.row {
+    ul.row,.row {
       flex-direction: column;
       margin: 0;
     }
     [class*='col-'] {
       margin: 0 0 3rem 0;
     }
-    .col-1-3.col-1-2 {
+    .col-1-3, .col-1-2 {
       width: 100%;
     }
   }
@@ -293,7 +293,7 @@
       --nav-item-margin: 0;
     }
     .header .nav {
-      flex-direction: column; /* for the element of the menu be below each other */
+      flex-direction: column; /* for the element of the menu be below each other*/
       overflow: hidden;
       max-height: 0; /* the display property can’t be animated, so we use the height that can be animated */
       transition: max-height .2s ease-out; /* the transition property is used to animate the height */
@@ -433,15 +433,15 @@
   }
   /* Section Latest news
       ============================= */
+
+  @media (max-width: 767px) {
+    section-latest-news row {
+      flex-direction: column;
+    }
+  }
   
   .section-latest-news .row {
     flex-direction: row-reverse;
-  }
-
-  @media (max-width: 767px) {
-    .section-latest-news .row {
-      flex-direction: column;
-    }
   }
   
   /* Section SERVICES
